@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%
+}
+
+
+body {
+  color: $very-dark-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: $space;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: $space;
+}
+
+p {
+  margin-bottom: $space;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+// form inputs
+input[type=text], input[type=email], input[type=password] {
+  border: 1px solid darken($light-grey, 10%);
+  font-family: inherit;
+  padding: $space / 2;
+  outline: none;
+}
+
+textarea {
+  border: 1px solid darken($light-grey, 10%);
+  font-family: inherit;
+  padding: $space / 2;
+  resize: vertical;
+  outline: none;
+}
+
+select {
+  border: 1px solid darken($light-grey, 10%);
+  font-family: inherit;
+  padding: $space / 2;
+  outline: none;
+}
+
+
+// table
+table {
+  border: 1px solid $light-grey;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  border: none;
+  padding: $space /2;
+  text-align: left;
+}
+
+thead tr:nth-child(odd) {
+  background: $very-dark-grey;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background: $light-grey;
+}

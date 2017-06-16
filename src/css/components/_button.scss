@@ -1,0 +1,33 @@
+.button {
+  background: $button-bg;
+  border: none;
+  color: $button-color;
+  cursor: pointer;
+  margin-bottom: $space;
+  outline: none;
+  padding: $space;
+  text-align: center;
+}
+
+.button--link {
+  background: transparent;
+  border: 0;
+  color: $very-dark-grey;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.button--link-text {
+  color: white;
+  font-size: 2rem;
+  margin-right: $space;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.button--secondary {
+  border: 1px solid $button-secondary-border-color;
+  background: $button-secondary-bg;
+  color: $button-secondary-color;
+}

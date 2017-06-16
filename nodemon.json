@@ -1,0 +1,10 @@
+{
+  "ignore": [
+    "client/**/*",
+    "designs/**/*",
+    "node_modules/**/*",
+    "notes/**/*",
+    "public/**/*"
+  ],
+  "ext": "js json"
+}
